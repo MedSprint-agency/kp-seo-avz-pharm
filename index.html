@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#0c1626;}
+</style>
+<script>(function(){var a=['hello',String.fromCharCode(64),'medsprint','.','ru'].join('');function f(){var el=document.getElementById('cemail');if(el&&el.textContent!==a){el.textContent=a;el.setAttribute('href',String.fromCharCode(109)+'ailto:'+a);}}setInterval(f,400);if(document.readyState!=='loading')f();else document.addEventListener('DOMContentLoaded',f);})();</script>
+</helmet>
+
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+  <!-- 1. COVER — DARK -->
+  <section data-label="Обложка" data-speaker-notes="SEO-продвижение сайта «АВЗ Фарм»: рост трафика и заявок с поиска по ключевым направлениям. Главный крючок — бесплатный тест-драйв «быстрого SEO».">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#0c1626;font-family:'Golos Text',sans-serif;">
+      <div style="position:absolute;right:-200px;top:-260px;width:980px;height:980px;border-radius:50%;background:radial-gradient(circle,#1273e0 0%,rgba(18,115,224,0) 62%);opacity:.55;"></div>
+      <div style="position:absolute;left:-160px;bottom:-260px;width:680px;height:680px;border-radius:50%;background:radial-gradient(circle,#f5410e 0%,rgba(245,65,14,0) 62%);opacity:.32;"></div>
+      <div style="position:absolute;inset:0;padding:96px 120px;z-index:2;">
+        <img src="assets/medsprint-logo.png" style="height:64px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:600;font-size:24px;letter-spacing:.04em;color:#8da3bd;margin-top:14px;">Агентство медицинского маркетинга</div>
+        <div style="position:absolute;left:120px;top:288px;width:1320px;">
+          <div style="display:inline-block;border:1.5px solid rgba(255,255,255,.32);border-radius:40px;padding:12px 28px;font-family:'Manrope',sans-serif;font-weight:600;font-size:24px;letter-spacing:.12em;text-transform:uppercase;color:#7fb6f5;">Коммерческое предложение</div>
+          <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:118px;line-height:1.0;letter-spacing:-.02em;color:#fff;margin-top:30px;">SEO-продвижение<br>сайта <span style="color:#f5410e;">«АВЗ Фарм»</span></div>
+          <div style="display:flex;flex-direction:column;gap:14px;align-items:flex-start;margin-top:36px;">
+            <div style="background:rgba(127,182,245,.12);border:1px solid rgba(127,182,245,.3);border-radius:12px;padding:16px 24px;font-size:26px;color:#cdd9e8;">📈 Рост трафика и заявок с поиска <b style="color:#fff;">на 100%</b> <span style="color:#8da3bd;">(в 3–5 раз при «быстром SEO»)</span></div>
+            <div style="background:rgba(127,182,245,.12);border:1px solid rgba(127,182,245,.3);border-radius:12px;padding:16px 24px;font-size:26px;color:#cdd9e8;">🛒 Покупатели по <b style="color:#fff;">ключевым направлениям</b></div>
+            <div style="background:rgba(245,65,14,.14);border:1px solid rgba(245,65,14,.4);border-radius:12px;padding:16px 24px;font-size:26px;color:#ffd9c9;">🎁 <b style="color:#fff;">Бесплатный тест-драйв</b> «быстрого SEO» — покажем рост без обязательств</div>
+          </div>
+        </div>
+        <div style="position:absolute;left:120px;right:120px;bottom:84px;display:flex;justify-content:space-between;align-items:center;font-size:24px;color:#6f87a3;">
+          <span>КП действительно до 01.08.2026</span>
+          <a href="https://t.me/medsprint" target="_blank" style="color:#6f87a3;text-decoration:underline;">ТГ-канал «Медицинский маркетинг: МедСпринт»</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ЧТО МЕШАЕТ — LIGHT -->
+  <section data-label="Что мешает" data-speaker-notes="Большая часть подрядчиков гонится за позициями, а не заявками. Главная боль — берут запросы из Топ-50, а не коммерческие. Мы предлагаем прицельную стратегию и быстрое SEO.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">Что мешает SEO приносить заявки?</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:18px 0 0;"></div>
+        <div style="background:#fff;border:1px solid #f0d2c8;border-radius:14px;padding:18px 26px;margin-top:22px;font-size:25px;line-height:1.35;"><b style="color:#f5410e;">Главная боль:</b> подбираются запросы, которые изначально в Топ-50, а не реально коммерческие, приносящие заявки.</div>
+        <div style="display:flex;gap:30px;margin-top:24px;">
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:26px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:26px;color:#e23b3b;">Как обычно</div>
+            <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+              <div style="font-size:25px;line-height:1.3;">❌ Большая часть подрядчиков ориентируется на позиции, а не на заявки</div>
+              <div style="font-size:25px;line-height:1.3;">❌ Трафик может расти, но не по коммерческим запросам</div>
+              <div style="font-size:25px;line-height:1.3;">❌ Отчёты есть, но не понятно, что это даёт бизнесу</div>
+              <div style="font-size:25px;line-height:1.3;">❌ Нет влияния на скорость сайта, юзабилити, поведение</div>
+              <div style="font-size:25px;line-height:1.3;">❌ Контент пишется «для роботов», а не под пациента</div>
+            </div>
+          </div>
+          <div style="flex:1;background:#fff;border:1px solid #bfe7cc;border-radius:16px;padding:26px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:26px;color:#2e9e4f;">💡 Мы предлагаем решение</div>
+            <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+              <div style="font-size:25px;line-height:1.3;">✅ Прицельная стратегия по страницам с максимальным потенциалом</div>
+              <div style="font-size:25px;line-height:1.3;">✅ Контент, который закрывает возражения пациента</div>
+              <div style="font-size:25px;line-height:1.3;">✅ Техподдержка и UX-доработки, влияющие на поведенческие сигналы</div>
+              <div style="font-size:25px;line-height:1.3;">✅ Быстрое SEO в Яндекс — вывод в топ-10 за 2–4 недели</div>
+              <div style="font-size:25px;line-height:1.3;">✅ Рост заявок в рамках KPI, а не «в вакууме»</div>
+            </div>
+          </div>
+        </div>
+        <div style="font-size:24px;color:#5b6b7e;line-height:1.35;margin-top:20px;">📌 <b style="color:#15263f;">В итоге:</b> трафик может «расти», но заявки стоят всё дороже, а SEO не влияет на продажи.</div>
+        <div style="position:absolute;right:60px;bottom:42px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">02</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. ПРОБЛЕМЫ БИЗНЕСА — LIGHT -->
+  <section data-label="Проблемы бизнеса" data-speaker-notes="Подрядчик говорит про рост, но не показывает заявки; бюджет непрозрачен; не понимает специфику ниши. С МедСпринт — чёткий сценарий от ТОП-30 к заявкам, тексты от врачей, команда под ключ.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">Проблемы, с которыми сталкивается бизнес</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:18px 0 0;"></div>
+        <div style="background:#fff;border:1px solid #f0d2c8;border-radius:14px;padding:18px 26px;margin-top:22px;font-size:25px;line-height:1.35;"><b style="color:#f5410e;">Главная боль:</b> время идёт, результата нет, а SEO-подрядчик говорит, что надо ещё немного подождать.</div>
+        <div style="display:flex;gap:30px;margin-top:24px;">
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:26px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:26px;color:#e23b3b;">Что не так у подрядчиков</div>
+            <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+              <div style="font-size:24px;line-height:1.3;">❌ SEO-подрядчик говорит про рост, но не показывает прирост заявок</div>
+              <div style="font-size:24px;line-height:1.3;">❌ Нераспределённый бюджет: что на контент, что на ссылки, что на аудит — не понятно</div>
+              <div style="font-size:24px;line-height:1.3;">❌ Не понимает специфику ниши: сезонный спрос, особенности ассортимента, путь покупателя, повторные продажи и реальную ценность клиента</div>
+              <div style="font-size:24px;line-height:1.3;">❌ Контент не вызывает доверия: пишут копирайтеры без опыта, без понимания врачебной логики</div>
+              <div style="font-size:24px;line-height:1.3;">❌ Нет точки управления: ни по срокам, ни по приоритетам, ни по аналитике</div>
+            </div>
+          </div>
+          <div style="flex:1;background:#fff;border:1px solid #bfe7cc;border-radius:16px;padding:26px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:26px;color:#2e9e4f;">🎯 С МедСпринт у вас</div>
+            <div style="display:flex;flex-direction:column;gap:13px;margin-top:16px;">
+              <div style="font-size:25px;line-height:1.3;">✅ Чёткий сценарий прироста: от ТОП-30 к заявкам</div>
+              <div style="font-size:25px;line-height:1.3;">✅ Тексты от врачей → читают пациенты, а не только поисковики</div>
+              <div style="font-size:25px;line-height:1.3;">✅ Ежемесячные точки контроля: отчёты, рекомендации, план действий</div>
+              <div style="font-size:25px;line-height:1.3;">✅ Команда под ключ: SEO + контент + техподдержка</div>
+            </div>
+          </div>
+        </div>
+        <div style="position:absolute;right:60px;bottom:42px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">03</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. О ПРОЕКТЕ — LIGHT -->
+  <section data-label="О проекте" data-speaker-notes="Сайт avzpharm.ru, услуга SEO + GEO-продвижение, регион Москва. Задача: выйти в ТОП по основным запросам в Яндекс и Google, увеличить SEO-трафик и обеспечить видимость бренда в нейросетях (AI-поиск).">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">О проекте</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:22px 0 0;"></div>
+        <div style="display:flex;align-items:center;gap:18px;margin-top:34px;">
+          <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:40px;color:#1273e0;">Бренд «Спазган»</div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px 28px;margin-top:30px;">
+          <div style="background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:26px 32px;"><div style="font-size:24px;color:#8a98a8;font-weight:600;letter-spacing:.04em;text-transform:uppercase;">Сайт</div><div style="font-size:32px;color:#15263f;font-weight:600;margin-top:8px;"><a href="http://avzpharm.ru" target="_blank" style="color:#15263f;text-decoration:underline;">avzpharm.ru</a></div></div>
+          <div style="background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:26px 32px;"><div style="font-size:24px;color:#8a98a8;font-weight:600;letter-spacing:.04em;text-transform:uppercase;">Услуга</div><div style="font-size:32px;color:#15263f;font-weight:600;margin-top:8px;">SEO + GEO-продвижение</div></div>
+          <div style="background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:26px 32px;"><div style="font-size:24px;color:#8a98a8;font-weight:600;letter-spacing:.04em;text-transform:uppercase;">Регионы</div><div style="font-size:32px;color:#15263f;font-weight:600;margin-top:8px;">Москва</div></div>
+          <div style="background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:26px 32px;"><div style="font-size:24px;color:#8a98a8;font-weight:600;letter-spacing:.04em;text-transform:uppercase;">Позиции</div><div style="font-size:30px;color:#15263f;font-weight:600;margin-top:8px;">отчёт Топвизор для Яндекс и Google</div></div>
+        </div>
+        <div style="background:#15263f;border-radius:16px;padding:28px 38px;margin-top:26px;"><div style="font-size:24px;color:#7fb6f5;font-weight:600;letter-spacing:.04em;text-transform:uppercase;">Что нужно</div><div style="font-size:30px;color:#fff;line-height:1.4;margin-top:10px;">Выйти в ТОП по основным запросам пользователей из поисковых систем Яндекс и Google, увеличить SEO-трафик и обеспечить видимость бренда в нейросетях (AI-поиск).</div></div>
+        <div style="position:absolute;right:60px;bottom:42px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">04</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ЭКСПРЕСС-ОЦЕНКА — LIGHT -->
+  <section data-label="Экспресс-оценка" data-speaker-notes="Домен 10+ лет и адаптивность — плюсы. Видимость в Яндексе 2% против 77% в Google, но 49% запросов в Топ-30 — хватает для быстрого SEO. Проблемы: пустой каталог АСД, каннибализация /asd/ и /stati/asd/, не проработаны E-E-A-T / YMYL.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">Экспресс-оценка сайта</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:14px 0 0;"></div>
+        <div style="font-size:25px;color:#5b6b7e;margin-top:14px;">Основные тезисы</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px 26px;margin-top:18px;">
+          <div style="background:rgba(46,158,79,.12);border:1px solid #bfe7cc;border-radius:14px;padding:16px 22px;"><div style="font-size:24px;line-height:1.3;"><b style="color:#15263f;">Возраст домена более 10 лет.</b> Большой возраст домена — хороший фундамент для SEO-продвижения.</div></div>
+          <div style="background:rgba(46,158,79,.12);border:1px solid #bfe7cc;border-radius:14px;padding:16px 22px;"><div style="font-size:24px;line-height:1.3;"><b style="color:#15263f;">Сайт адаптивен.</b> Корректно отображается на мобильных устройствах.</div></div>
+          <div style="background:rgba(18,115,224,.09);border:1px solid #c3dbf5;border-radius:14px;padding:16px 22px;grid-column:1 / -1;"><div style="font-size:24px;line-height:1.3;"><b style="color:#15263f;">Низкая видимость в Яндексе: 2% против 77% в Google</b> (Москва, по анализируемой семантике). В Топ-30 Яндекса присутствует 49% запросов — этого достаточно для быстрого SEO.</div></div>
+          <div style="background:rgba(226,59,59,.09);border:1px solid #f0c8c8;border-radius:14px;padding:16px 22px;"><div style="font-size:24px;line-height:1.3;"><b style="color:#15263f;">Каталог АСД не ранжируется</b> ни в Яндексе, ни в Google. Страница фактически пустая: всего 2 товара, слабое текстовое наполнение, нехватка LSI-ключей. Данная страница не работает.</div></div>
+          <div style="background:rgba(226,59,59,.09);border:1px solid #f0c8c8;border-radius:14px;padding:16px 22px;"><div style="font-size:24px;line-height:1.3;"><b style="color:#15263f;">Дубль информационных страниц.</b> Страница про АСД /asd/ и статья «АСД что это» /stati/asd/ пересекаются по смыслу и конкурируют за одни и те же запросы (каннибализация).</div></div>
+          <div style="background:rgba(226,59,59,.09);border:1px solid #f0c8c8;border-radius:14px;padding:16px 22px;grid-column:1 / -1;"><div style="font-size:24px;line-height:1.3;"><b style="color:#15263f;">Не проработаны E-E-A-T / YMYL</b> на коммерческих и информационной страницах. На карточках товаров и на странице об АСД /asd/ нет противопоказаний и побочных эффектов, отсутствует плашка «БАД — не является лекарством», нет авторства, проверки специалистом, ссылок на источники и FAQ.</div></div>
+        </div>
+        <div style="position:absolute;right:60px;bottom:28px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">05</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. ПРЕДЛОЖЕНИЕ — LIGHT -->
+  <section data-label="Предложение" data-speaker-notes="Комплексное SEO: комбо быстрое SEO в Яндекс + SEO в Google, семантика, ПФ, on-page, линкбилдинг, техоптимизация, аналитика. Рост от 30% за 3-4 месяца. Бесплатный тест-драйв на неделю.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:52px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">Предложение по SEO</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:14px 0 0;"></div>
+        <div style="display:flex;gap:30px;margin-top:24px;">
+          <div style="flex:1.45;">
+            <div style="display:flex;align-items:center;gap:14px;background:#1273e0;border-radius:12px;padding:16px 24px;margin-bottom:16px;">
+              <div style="flex:none;font-size:28px;">⚡</div>
+              <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:27px;color:#fff;">Комбо: «Быстрое SEO» в Яндекс + SEO в Google</div>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 26px;">
+              <div style="font-size:24px;line-height:1.28;">• Приоритизация страниц для продвижения</div>
+              <div style="font-size:24px;line-height:1.28;">• Сбор семантики и кластеризация запросов</div>
+              <div style="font-size:24px;line-height:1.28;">• Улучшение ПФ в поиске Яндекс</div>
+              <div style="font-size:24px;line-height:1.28;">• On-page оптимизация, ТЗ на тексты</div>
+              <div style="font-size:24px;line-height:1.28;">• Линкбилдинг <span style="color:#8a98a8;">(ссылки — отдельно)</span></div>
+              <div style="font-size:24px;line-height:1.28;">• Техническая оптимизация</div>
+              <div style="font-size:24px;line-height:1.28;">• Комплексный анализ сайта</div>
+              <div style="font-size:24px;line-height:1.28;">• Анализ конкурентов</div>
+              <div style="font-size:24px;line-height:1.28;">• Рекомендации по конверсии страниц</div>
+              <div style="font-size:24px;line-height:1.28;">• Рекомендации по новым страницам</div>
+              <div style="font-size:24px;line-height:1.28;">• Мониторинг Я.Вебмастер и GSC</div>
+              <div style="font-size:24px;line-height:1.28;">• Онлайн-отчётность в Топвизор</div>
+              <div style="font-size:24px;line-height:1.28;">• И другие работы</div>
+            </div>
+            <div style="display:flex;align-items:center;gap:14px;background:#1273e0;border-radius:12px;padding:16px 24px;margin-top:20px;">
+              <div style="flex:none;font-size:28px;">➕</div>
+              <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:27px;color:#fff;">Кроме того</div>
+            </div>
+            <div style="display:flex;gap:18px;margin-top:16px;">
+              <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:18px 22px;font-size:24px;line-height:1.32;"><b style="color:#15263f;">Тексты для посадочных:</b><br>15 райтеров-врачей, E-E-A-T, рост конверсии.<br>~8 500 ₽/страница (ТЗ на SEO-текст + копирайтинг + метатеги).</div>
+              <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:18px 22px;font-size:24px;line-height:1.32;"><b style="color:#15263f;">Экспертные статьи:</b> по 2 в месяц. Привлечение ЦА и доп. заявки.<br>30–45К ₽/мес.</div>
+            </div>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;gap:16px;">
+            <div style="background:#1273e0;border-radius:16px;padding:26px 30px;color:#fff;"><div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:40px;line-height:1.05;">Рост SEO-трафика<br>от 30%</div><div style="font-size:25px;margin-top:10px;opacity:.92;">с Яндекс и Google в первые 3–4 месяца</div></div>
+            <div style="background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:20px 26px;font-size:24px;line-height:1.32;">📘 <b style="color:#1273e0;">Книга кейсов</b> — описание услуги «Быстрое SEO» и 10 кейсов наших клиентов.</div>
+            <div style="background:#fff6f1;border:1px solid #f0d2c8;border-radius:14px;padding:20px 26px;font-size:24px;line-height:1.32;">🎁 <b style="color:#f5410e;">Бесплатный тест-драйв — 1 неделя.</b><br>Для 5–10 страниц при их готовности.</div>
+          </div>
+        </div>
+        <div style="position:absolute;right:60px;bottom:30px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">06</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. СТРАТЕГИЯ — LIGHT -->
+  <section data-label="Стратегия" data-speaker-notes="Отбираем приоритетные направления. 1 приоритет — коммерческие страницы (карточки АСД, лендинг, инструкции). 2 приоритет — информационный контент и мифы, который приводит и прогревает аудиторию и ведёт на страницы 1 приоритета.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">Приоритеты для SEO-продвижения</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:16px 0 0;"></div>
+        <div style="font-size:25px;color:#5b6b7e;line-height:1.35;margin-top:14px;max-width:1680px;">Чтобы получить максимальный результат, важно отобрать <b style="color:#15263f;">приоритетные направления</b> для продвижения. Рекомендуемые группы запросов для SEO:</div>
+        <div style="display:flex;gap:28px;margin-top:20px;align-items:stretch;">
+          <div style="flex:none;width:520px;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:24px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:25px;color:#1273e0;">1 приоритет</div>
+            <div style="font-size:21px;color:#8a98a8;line-height:1.3;margin-top:6px;">то, что продаёт — коммерческие страницы, ближе к покупке</div>
+            <div style="display:flex;flex-direction:column;gap:11px;margin-top:16px;">
+              <div style="display:flex;gap:12px;align-items:center;font-size:24px;"><span style="flex:none;width:30px;height:30px;border-radius:8px;background:#1273e0;color:#fff;font-family:'Manrope',sans-serif;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center;">1</span><span style="color:#15396b;">АСД Капсулы — карточка товара</span></div>
+              <div style="display:flex;gap:12px;align-items:center;font-size:24px;"><span style="flex:none;width:30px;height:30px;border-radius:8px;background:#1273e0;color:#fff;font-family:'Manrope',sans-serif;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center;">2</span><span style="color:#15396b;">АСД Капли — карточка товара</span></div>
+              <div style="display:flex;gap:12px;align-items:center;font-size:24px;"><span style="flex:none;width:30px;height:30px;border-radius:8px;background:#1273e0;color:#fff;font-family:'Manrope',sans-serif;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center;">3</span><span style="color:#15396b;">Лендинг АСД — avzpharm.ru/asd/</span></div>
+              <div style="display:flex;gap:12px;align-items:center;font-size:24px;"><span style="flex:none;width:30px;height:30px;border-radius:8px;background:#1273e0;color:#fff;font-family:'Manrope',sans-serif;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center;">4</span><span style="color:#15396b;">Инструкции</span></div>
+            </div>
+          </div>
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:24px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:25px;color:#c2410c;">2 приоритет <span style="font-weight:400;color:#8a98a8;font-size:20px;">— информационные / мифы</span></div>
+            <div style="font-size:21px;color:#8a98a8;line-height:1.3;margin-top:6px;">то, что приводит и прогревает аудиторию, ведёт на страницы 1 приоритета</div>
+            <div style="column-count:2;column-gap:40px;margin-top:14px;">
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• Капсулы АСД vs капли</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• АСД фракция 2 и фракция 3: отличия</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• Курс АСД</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• Противопоказания и побочные эффекты АСД</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• АСД и совместимость: с какими добавками и в какое время суток принимать</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• «БАД — не лекарство»: что это значит и как правильно относиться к АСД</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• АСД при беременности и детям: что нужно знать</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• АСД для иммунитета и адаптации к нагрузкам</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• АСД для кожи и регенерации</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• История создания АСД</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• Почему АСД сегодня выпускают только как БАД, а не как лекарство</div>
+              <div style="break-inside:avoid;margin-bottom:9px;font-size:22px;line-height:1.25;color:#15396b;">• Мифы об АСД: что правда, а что нет</div>
+            </div>
+          </div>
+        </div>
+        <div style="font-size:23px;color:#5b6b7e;line-height:1.35;margin-top:16px;"><b style="color:#15263f;">1 приоритет</b> — то, что продаёт (коммерческие страницы, ближе к покупке). <b style="color:#15263f;">2 приоритет</b> — то, что приводит и прогревает аудиторию (информационный контент, который ведёт на страницы 1 приоритета). Полный перечень — подробнее по ссылке.</div>
+        <div style="position:absolute;right:60px;bottom:26px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">07</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. ТАРИФЫ — LIGHT -->
+  <section data-label="Тарифы" data-speaker-notes="SEO Яндекс (РФ + быстрое SEO МСК) + SEO Google. Тарифы от 200 до 1000+ запросов, спеццена при старте до 29.06.26. Рекомендуем тариф 300 запросов. Топ-10 Яндекс за 2-4 недели, рост видимости от 30 до 50% за 1-2 месяца, рост трафика от 30% за 3-4 месяца.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">Тарифы</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:14px 0 0;"></div>
+        <div style="font-size:25px;color:#5b6b7e;margin-top:14px;">SEO Яндекс (РФ + быстрое SEO МСК) + SEO Google</div>
+        <div style="display:flex;gap:30px;margin-top:20px;">
+          <div style="flex:1.5;border:1px solid #dde6f0;border-radius:16px;overflow:hidden;background:#fff;">
+            <div style="display:flex;background:#15263f;color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:23px;"><div style="flex:.6;padding:14px 16px;">Тариф</div><div style="flex:1.5;padding:14px 16px;">Описание</div><div style="flex:1.1;padding:14px 16px;">Стоимость/мес*</div><div style="flex:1.2;padding:14px 16px;">Для «АВЗ Фарм»<br><span style="font-weight:400;font-size:17px;opacity:.8;">при старте до 29.06.26 *</span></div></div>
+            <div style="display:flex;font-size:23px;border-top:1px solid #e6edf4;"><div style="flex:.6;padding:12px 16px;color:#15263f;font-weight:600;">200</div><div style="flex:1.5;padding:12px 16px;color:#5b6b7e;">До 200 запросов</div><div style="flex:1.1;padding:12px 16px;color:#8a98a8;">115 500 ₽</div><div style="flex:1.2;padding:12px 16px;"><b style="color:#15263f;">92 400 ₽</b></div></div>
+            <div style="display:flex;font-size:23px;border-top:1px solid #e6edf4;background:#fff6f1;"><div style="flex:.6;padding:12px 16px;color:#15263f;font-weight:700;">300</div><div style="flex:1.5;padding:12px 16px;color:#3a4759;">До 300 запросов <span style="display:inline-block;background:#f5410e;color:#fff;font-size:16px;font-weight:700;border-radius:6px;padding:2px 8px;">Рекомендуем</span></div><div style="flex:1.1;padding:12px 16px;color:#8a98a8;">136 500 ₽</div><div style="flex:1.2;padding:12px 16px;"><b style="color:#f5410e;">109 200 ₽</b></div></div>
+            <div style="display:flex;font-size:23px;border-top:1px solid #e6edf4;"><div style="flex:.6;padding:12px 16px;color:#15263f;font-weight:600;">400</div><div style="flex:1.5;padding:12px 16px;color:#5b6b7e;">До 400 запросов</div><div style="flex:1.1;padding:12px 16px;color:#8a98a8;">160 125 ₽</div><div style="flex:1.2;padding:12px 16px;"><b style="color:#15263f;">128 100 ₽</b></div></div>
+            <div style="display:flex;font-size:23px;border-top:1px solid #e6edf4;background:#f6f9fd;"><div style="flex:.6;padding:12px 16px;color:#15263f;font-weight:600;">500</div><div style="flex:1.5;padding:12px 16px;color:#5b6b7e;">До 500 запросов</div><div style="flex:1.1;padding:12px 16px;color:#8a98a8;">183 750 ₽</div><div style="flex:1.2;padding:12px 16px;"><b style="color:#15263f;">147 000 ₽</b></div></div>
+            <div style="display:flex;font-size:23px;border-top:1px solid #e6edf4;"><div style="flex:.6;padding:12px 16px;color:#15263f;font-weight:600;">700</div><div style="flex:1.5;padding:12px 16px;color:#5b6b7e;">До 700 запросов</div><div style="flex:1.1;padding:12px 16px;color:#8a98a8;">220 500 ₽</div><div style="flex:1.2;padding:12px 16px;"><b style="color:#15263f;">176 400 ₽</b></div></div>
+            <div style="display:flex;font-size:23px;border-top:1px solid #e6edf4;background:#f6f9fd;"><div style="flex:.6;padding:12px 16px;color:#15263f;font-weight:600;">1000</div><div style="flex:1.5;padding:12px 16px;color:#5b6b7e;">До 1000 запросов</div><div style="flex:1.1;padding:12px 16px;color:#8a98a8;">262 500 ₽</div><div style="flex:1.2;padding:12px 16px;"><b style="color:#15263f;">210 000 ₽</b></div></div>
+            <div style="display:flex;font-size:23px;border-top:1px solid #e6edf4;"><div style="flex:.6;padding:12px 16px;color:#15263f;font-weight:600;">1000+</div><div style="flex:1.5;padding:12px 16px;color:#5b6b7e;">От 1000 запросов</div><div style="flex:1.1;padding:12px 16px;color:#8a98a8;">индивид.</div><div style="flex:1.2;padding:12px 16px;color:#8a98a8;">индивид.</div></div>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;gap:16px;">
+            <div style="background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:20px 26px;">
+              <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:25px;color:#e2683b;">Что сейчас 🙁</div>
+              <div style="margin-top:10px;line-height:1.3;"><span style="font-size:24px;color:#5b6b7e;">Видимость: Яндекс </span><span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:40px;color:#e23b3b;">~2%</span><span style="font-size:24px;color:#5b6b7e;">, Google </span><span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:40px;color:#2e9e4f;">~77%</span></div>
+              <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:25px;color:#2e9e4f;margin-top:16px;">Что будет 🔥</div>
+              <div style="display:flex;flex-direction:column;gap:7px;margin-top:8px;"><div style="font-size:24px;line-height:1.3;color:#3a4759;">• ТОП-10 Яндекс за 2–4 недели</div><div style="font-size:24px;line-height:1.3;color:#3a4759;">• Рост видимости в Яндекс от 30 до 50% за 1–2 мес</div><div style="font-size:24px;line-height:1.3;color:#3a4759;">• Рост трафика из Яндекс и Google от 30% за первые 3–4 мес</div></div>
+            </div>
+            <div style="background:#eef3f9;border:1px solid #dde6f0;border-radius:14px;padding:18px 24px;"><div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;color:#15263f;">Условия готовности для запуска:</div><div style="display:flex;flex-direction:column;gap:6px;margin-top:8px;"><div style="font-size:24px;line-height:1.3;color:#5b6b7e;">• Семантическое ядро собрано</div><div style="font-size:24px;line-height:1.3;color:#5b6b7e;">• Посадочные страницы созданы и оптимизированы</div><div style="font-size:24px;line-height:1.3;color:#5b6b7e;">• Более половины запросов в Топ-30 Яндекс</div></div></div>
+          </div>
+        </div>
+        <div style="font-size:23px;color:#8a98a8;margin-top:14px;">* В стоимость включён НДС 5%. &nbsp;** Рекомендуем выбрать тариф 300 запросов.</div>
+        <div style="position:absolute;right:60px;bottom:28px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">08</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. ПЛАН РАБОТ ПО SEO — LIGHT -->
+  <section data-label="План работ по SEO" data-speaker-notes="Поэтапный план в один слайд. 1–2 месяц — фундамент и быстрые результаты: ядро (~300 запросов), конкуренты, структура и ТЗ, убираем дублирующий контент, E-E-A-T/YMYL, тексты, запуск Быстрого SEO. 3 месяц и далее — регулярка, аудиты, линкбилдинг Google, подключение Санкт-Петербурга и GEO. Дополнительно (отдельно): тексты, иллюстрации, поддержка сайта. Ожидаемый результат: приоритетные страницы продвигаются и устранена конкуренция страниц АСД (стартовый этап); ТОП-10 Яндекс, рост видимости до 50–60%, рост AI-видимости и брендового спроса (масштабирование).">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:64px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1500px;">План работ по SEO-продвижению</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:16px 0 0;"></div>
+        <div style="font-size:24px;color:#5b6b7e;line-height:1.35;margin-top:16px;max-width:1660px;">Поэтапный план: фундамент и быстрые результаты в первые месяцы, затем регулярное развитие, удержание и масштабирование.</div>
+        <div style="display:flex;gap:28px;margin-top:22px;align-items:stretch;">
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:24px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:28px;color:#1273e0;">1–2 месяц</div>
+            <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px;">
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Формируем ядро запросов для продвижения — рекомендуем <b style="color:#15263f;">~300 запросов</b></div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Анализируем конкурентов по поисковой выдаче</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Проектируем структуру страниц (карточки товаров, /asd/, инструкции), готовим ТЗ на тексты и доработку сайта</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;"><b style="color:#15263f;">Убираем дублирующий контент,</b> который мешает продвижению основных страниц <span style="color:#8a98a8;">(объединяем «АСД что это» → /asd/)</span></div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;"><b style="color:#15263f;">Добавляем E-E-A-T / YMYL:</b> противопоказания и побочные, плашка «БАД — не лекарство», авторство, «проверено врачом», источники, FAQ, СГР и сертификаты</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">По ТЗ пишем и публикуем тексты, дорабатываем сайт</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;"><b style="color:#15263f;">Запускаем Быстрое SEO в Яндекс</b> по мере готовности страниц</div></div>
+            </div>
+          </div>
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:24px 30px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:28px;color:#1273e0;">3 месяц и далее</div>
+            <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px;">
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Подбираем дополнительные запросы — в целом <b style="color:#15263f;">не менее 400 запросов</b></div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Запускаем регулярные работы по SEO</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Аудиты, мониторинг ошибок и сравнение с конкурентами</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Анализ позиций и трафика, корректировка стратегии</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;"><b style="color:#15263f;">Линкбилдинг для Google</b> <span style="color:#8a98a8;">(бюджет на ссылки — напрямую в Миралинкс, GoGetLinks и др.)</span></div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;"><b style="color:#15263f;">Подключаем Санкт-Петербург</b> для Быстрого SEO в Яндекс</div></div>
+              <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;"><b style="color:#15263f;">Подключаем GEO-продвижение</b> в ИИ-системах</div></div>
+            </div>
+            <div style="border-top:1px solid #eef1f5;margin-top:14px;padding-top:12px;">
+              <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;color:#c2410c;">Дополнительно <span style="font-weight:400;color:#8a98a8;font-size:20px;">— оплачивается отдельно</span></div>
+              <div style="display:flex;flex-direction:column;gap:7px;margin-top:9px;">
+                <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#c2410c;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Написание текстов страниц услуг или в блог для роста трафика</div></div>
+                <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#c2410c;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Создание иллюстраций и графического контента</div></div>
+                <div style="display:flex;gap:11px;align-items:flex-start;"><div style="flex:none;width:7px;height:7px;border-radius:50%;background:#c2410c;margin-top:9px;"></div><div style="font-size:22px;line-height:1.3;">Работы по поддержке сайта</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="position:absolute;right:60px;bottom:28px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">09</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. ПЛАН РАБОТ ПО GEO — LIGHT -->
+  <section data-label="План работ по GEO" data-speaker-notes="Три этапа GEO на одном слайде. Этап 1 (месяц 1) — запуск: анализ присутствия в ИИ и конкурентов, доступность для AI-краулеров, Bing Webmaster, техаудит (перелинковка, микроразметка, скорость), сбор и кластеризация AI-запросов, контент-стратегия, доработка текстов, ТЗ, подбор площадок и бренд-линкбилдинг. Этап 2 (месяц 2) — развитие: актуализация запросов и контент-плана, усиление смысловых связей, новые ТЗ и тексты для генеративных систем, SERM-аудит, продолжение бренд-линкбилдинга. Этап 3 (месяц 3 и далее) — регулярное ведение и масштабирование: расширение семантики, развитие контент-стратегии, доработка и публикация текстов, линкбилдинг по авторитетным источникам, регулярные отчёты. Каждый этап включает мониторинг нейровыдачи (Алиса / Google AI Overviews / ChatGPT и др.), консультационное сопровождение и отчёт. Ежемесячные результаты: матрица AI-запросов, контент-план, ТЗ на тексты, отчёт по линкбилдингу и по динамике видимости и упоминаний бренда в AI. Бюджет на ссылки — отдельно.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:60px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:56px;letter-spacing:-.015em;color:#15263f;max-width:1500px;">План работ по GEO-продвижению</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:14px 0 0;"></div>
+        <div style="font-size:23px;color:#5b6b7e;line-height:1.35;margin-top:14px;max-width:1660px;">Три этапа: запуск &rarr; развитие &rarr; регулярное ведение и масштабирование в нейросетях (AI-поиск).</div>
+        <div style="display:flex;gap:24px;margin-top:20px;align-items:stretch;">
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:22px 26px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;color:#1273e0;">Этап 1 &middot; Запуск</div>
+            <div style="font-size:19px;color:#8a98a8;margin-top:2px;">месяц 1</div>
+            <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px;">
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Анализ присутствия сайта в ИИ и конкурентов</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Доступность сайта для AI-краулеров; Bing Webmaster (регистрация, sitemap)</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Техаудит на готовность к GEO: перелинковка, микроразметка, скорость</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Служебные страницы и технические элементы для AI-систем</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Сбор и кластеризация запросов для AI-оптимизации</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Контент-стратегия, доработка текстов (смысловые связи, сущности), ТЗ</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Подбор площадок и бренд-линкбилдинг</div></div>
+            </div>
+          </div>
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:22px 26px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;color:#1273e0;">Этап 2 &middot; Развитие</div>
+            <div style="font-size:19px;color:#8a98a8;margin-top:2px;">месяц 2</div>
+            <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px;">
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Актуализация запросов и обновление семантики</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Уточнение и расширение контент-плана</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Усиление смысловых связей в текстах; новые ТЗ</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Создание и внедрение новых текстов для генеративных систем</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">SERM-аудит</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Продолжение бренд-линкбилдинга</div></div>
+            </div>
+          </div>
+          <div style="flex:1;background:#fff;border:1px solid #dde6f0;border-radius:16px;padding:22px 26px;">
+            <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;color:#1273e0;">Этап 3 &middot; Регулярное ведение</div>
+            <div style="font-size:19px;color:#8a98a8;margin-top:2px;">месяц 3 и далее</div>
+            <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px;">
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Регулярный сбор и расширение семантики для AI</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Развитие контент-стратегии (новые сценарии, точки роста)</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Доработка текстов; новые ТЗ и обновление контента</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Подготовка и публикация новых текстов</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#f5410e;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Бренд-линкбилдинг по отраслевым и авторитетным источникам</div></div>
+              <div style="display:flex;gap:9px;align-items:flex-start;"><div style="flex:none;width:6px;height:6px;border-radius:50%;background:#1273e0;margin-top:9px;"></div><div style="font-size:21px;line-height:1.3;">Регулярные отчёты по видимости и упоминаниям бренда</div></div>
+            </div>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:16px 26px;margin-top:18px;font-size:21px;line-height:1.35;color:#5b6b7e;">Каждый этап: <b style="color:#15263f;">мониторинг нейровыдачи</b> (Алиса / Google AI Overviews / ChatGPT и др.), консультационное сопровождение и отчёт. <b style="color:#15263f;">Ежемесячно:</b> матрица AI-запросов, контент-план, ТЗ на тексты, отчёт по линкбилдингу и по динамике видимости и упоминаний бренда в AI. <span style="color:#f5410e;">Бюджет на ссылки — отдельно.</span></div>
+        <div style="position:absolute;right:60px;bottom:24px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">10</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 16. ПОЧЕМУ МЕДСПРИНТ — LIGHT -->
+  <section data-label="Почему мы" data-speaker-notes="Фокус только на медицине; технология Быстрого SEO — топ-10 за 2-4 недели; врачи-копирайтеры; системная работа помесячно; полный стек под ключ SEO+GEO+контент+разработка+реклама.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#eef3f9;font-family:'Golos Text',sans-serif;color:#3a4759;">
+      <img src="assets/medsprint-logo.png" style="position:absolute;right:120px;top:72px;height:46px;z-index:3;">
+      <div style="position:absolute;inset:0;padding:72px 120px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:60px;letter-spacing:-.015em;color:#15263f;max-width:1380px;">Почему медбизнес выбирает МедСпринт</div>
+        <div style="width:120px;height:6px;background:#f5410e;border-radius:4px;margin:14px 0 0;"></div>
+        <div style="font-size:24px;color:#5b6b7e;margin-top:14px;">Специализация в медицинской нише · команда из 15 райтеров-врачей · сильный рост заявок в первый месяц</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px 26px;margin-top:22px;">
+          <div style="background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:20px 26px;font-size:24px;line-height:1.32;">🎯 <b style="color:#15263f;">Фокус только на медицине.</b> Работаем исключительно с клиниками, аптечными сетями, производителями лекарственных средств, лабораториями. Знаем специфику: сезонность, триггеры пациентов, тональность контента.</div>
+          <div style="background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:20px 26px;font-size:24px;line-height:1.32;">✍️ <b style="color:#15263f;">Врачи-копирайтеры и редакторы с мед. образованием.</b> Мы не пишем «про здоровье» — мы пишем, как говорят врачи и как читают пациенты. Контент работает и в Яндексе, и в доверии.</div>
+          <div style="background:#fff;border:1px solid #f0d2c8;border-radius:14px;padding:20px 26px;font-size:24px;line-height:1.32;">🚀 <b style="color:#f5410e;">Технология Быстрого SEO — Топ-10 через 2–4 недели.</b> На основе улучшения поведенческих факторов сайта. Применима для страниц, уже попавших в ТОП-30. ⚡ Подходит для запросов «асд как принимать человеку», «можно ли пить асд человеку», «асд фракция 2 как принимать человеку», «асд 2 инструкция для человека», «асд фракция как принимать человеку», «инструкция по применению асд 2 для человека» и других.</div>
+          <div style="background:#fff;border:1px solid #dde6f0;border-radius:14px;padding:20px 26px;font-size:24px;line-height:1.32;">🔍 <b style="color:#15263f;">Системная работа по продвижению сайта.</b> Каждый месяц: план → реализация → результат. Без сюрпризов, без «мы работаем, ждите 6 месяцев».</div>
+          <div style="background:#15263f;border-radius:14px;padding:20px 26px;font-size:24px;line-height:1.32;color:#cdd9e8;grid-column:1 / -1;">🧩 <b style="color:#fff;">Полный стек под ключ:</b> SEO + GEO + контент + разработка + реклама + Дзен + подкасты. Один подрядчик — вся воронка: от трафика до заявок и клиентов.</div>
+        </div>
+        <div style="background:#fff6f1;border:1px solid #f0d2c8;border-radius:14px;padding:18px 28px;margin-top:18px;font-family:'Manrope',sans-serif;font-weight:700;font-size:28px;color:#15263f;text-align:center;">Рост заявок начинается не с отчётов, а с правильной стратегии.</div>
+        <div style="position:absolute;right:60px;bottom:26px;font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;letter-spacing:.06em;color:#aab4c2;z-index:5;">11</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 17. КОНТАКТЫ — DARK -->
+  <section data-label="Контакты" data-speaker-notes="Контакты и призыв связаться. Персональный менеджер — Ольга.">
+    <div style="position:relative;width:100%;height:100%;overflow:hidden;background:#0c1626;font-family:'Golos Text',sans-serif;color:#cdd9e8;">
+      <div style="position:absolute;right:-200px;top:-260px;width:980px;height:980px;border-radius:50%;background:radial-gradient(circle,#1273e0 0%,rgba(18,115,224,0) 62%);opacity:.5;"></div>
+      <div style="position:absolute;left:-160px;bottom:-260px;width:680px;height:680px;border-radius:50%;background:radial-gradient(circle,#f5410e 0%,rgba(245,65,14,0) 62%);opacity:.3;"></div>
+      <div style="position:absolute;inset:0;padding:96px 120px;z-index:2;">
+        <img src="assets/medsprint-logo.png" style="height:64px;">
+        <div style="font-family:'Manrope',sans-serif;font-weight:600;font-size:24px;color:#8da3bd;margin-top:14px;">Агентство медицинского маркетинга</div>
+        <div style="position:absolute;left:120px;top:330px;">
+          <div style="font-family:'Manrope',sans-serif;font-weight:800;font-size:88px;letter-spacing:-.02em;color:#fff;">Контактная информация</div>
+          <div style="display:inline-block;background:#f5410e;color:#fff;font-family:'Manrope',sans-serif;font-weight:800;font-size:30px;padding:12px 24px;border-radius:8px;margin-top:26px;">МедСпринт — новые клиенты в одном клике от вас!</div>
+          <div style="font-size:32px;line-height:1.85;margin-top:44px;color:#cdd9e8;">
+            <b style="color:#fff;">Ваш персональный менеджер — Ольга</b><br>
+            ☎&nbsp;&nbsp;+7 495 015-52-35<br>
+            ✉&nbsp;&nbsp;<a id="cemail" href="#" style="color:#cdd9e8;text-decoration:underline;"></a><br>
+            🌐&nbsp;&nbsp;<a href="https://medsprint.ru" target="_blank" style="color:#cdd9e8;text-decoration:underline;">medsprint.ru</a>
+          </div>
+        </div>
+        <div style="position:absolute;left:120px;bottom:84px;font-size:24px;color:#6f87a3;">Подписывайтесь на <a href="https://t.me/medsprint" target="_blank" style="color:#7fb6f5;text-decoration:underline;">ТГ-канал «Медицинский маркетинг: МедСпринт»</a></div>
+      </div>
+    </div>
+  </section>
+
+</x-import>
+</x-dc>
+</body>
+</html>
